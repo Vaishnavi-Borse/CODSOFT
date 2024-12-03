@@ -1,0 +1,106 @@
+*{
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    margin-top: 0%;
+    padding: 10px;
+}
+#nav{
+    margin-left: 690px;
+    padding: 5px;
+    position: fixed;
+    height: 5px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    margin-left: 70px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0%;
+}
+a{
+    transition: margin 0.2s ease-in-out;
+    text-decoration: none;
+}
+a:hover{
+    margin-top: -5px;
+}
+.home{
+    background-color: rgb(0, 0, 0);
+}
+
+#namesectionbox{
+    padding-left: 120px;
+    padding-right: 160px;
+    padding-top: 220px;
+    padding-bottom: 300px;
+    display: inline-block;
+    margin-top: 0%;
+}
+#aboutbox{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 330px;
+}
+#skillsbox{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 330px;
+}
+#projectsbox{
+    padding-left: 30px;
+    padding-top: 110px;
+    padding-bottom: 330px;
+}
+#contactbox{
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 160px;
+}
+#hello{
+    font-size: 40px;
+    text-align: left;
+    font-family:monospace;
+}
+#about-heading{
+    margin-left: 220px;
+    font-size: 40px;
+    text-align: left;
+    font-family:monospace;
+}
+#project-heading{
+    font-size: 40px;
+    text-align: left;
+    font-family:monospace;
+    padding-left: 70px;
+}
+#name{
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+#about-info{
+    font-size: 17px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin-right: 700px;
+}
+footer{
+    text-align: center;
+    position: relative;
+}
+#img1{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    position: fixed;
+    top: 190px;
+    margin-left: 0px;
+}
