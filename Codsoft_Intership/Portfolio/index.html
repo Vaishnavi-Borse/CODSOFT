@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Borse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <a href="#namesection" class="header">Home</a>
+            <a href="#about" class="header">About</a>
+            <a href="#skills" class="header">Skills</a>
+            <a href="#projects" class="header">Projects</a>
+            <a href="https://drive.google.com/file/d/1ywaHxUcGfYzOE5UoUUdVGYZEvkdRPGbA/view?usp=drive_link" target="_main" class="header">Resume</a>
+            <a href="#contact" class="header">Contact</a>
+        </div>
+    </header>
+
+    <section id="namesection" class="home">
+        <div id="namesectionbox">
+            <br><br><br><br>
+            <b id="hello"> <> Hello World <> </b><br>
+            <b id="name">I'm Vaishnavi Borse</b>
+        </div>
+        <img src="black bg.jpg" id="img1">
+    </section>
+    <section id="about" class="about">
+        <div id="aboutbox">
+            <b id="about-heading"> <> About <> </b><br>
+            <b id="about-info"><br><br><br>Hi, I'm Vaishnavi!
+                I’m an enthusiastic IT student with a passion for technology and continuous learning. I have hands-on experience as a Web Development Intern, where I contributed to real-world projects and honed my skills in building dynamic websites. Additionally, I am dedicated to self-improvement and am actively learning web development online to stay current with industry trends and best practices.<br><br>
+                
+                I’m always seeking new opportunities to grow, expand my technical expertise, and contribute to impactful projects. Outside of coding, I love exploring new places, listening to music, and embracing different experiences. With a curiosity-driven mindset and a passion for innovation, I’m excited to take on new challenges and collaborate in the tech space.<br><br>
+                
+                Let’s connect and explore how we can work together!</b>
+        </div>
+    </section>
+    <section id="skills" class="home">
+        
+        <div id="skillsbox">
+            <b id="hello"> <> Skills <> </b><br>
+            <br><br><b id="skill-name">HTML, CSS, JS</b>
+            <div class="body1">
+                <div class="progress1">
+                    <div class="progress-value1"></div>
+                </div>
+            </div>
+            <br><b id="skill-name">Oracle-Database</b>
+            <div class="body2">
+                <div class="progress2">
+                    <div class="progress-value2"></div>
+                </div>
+            </div>
+            <br><b id="skill-name">Python, C++</b>
+            <div class="body3">
+                <div class="progress3">
+                    <div class="progress-value3"></div>
+                </div>
+            </div>
+            <br><b id="skill-name">Android Application Development</b>
+            <div class="body4">
+                <div class="progress4">
+                    <div class="progress-value4"></div>
+                </div>
+            </div>
+            <br><b id="skill-name">MS Office</b>
+            <div class="body5">
+                <div class="progress5">
+                    <div class="progress-value5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="about">
+        <div id="projectsbox">
+            <b id="project-heading"> <> Projects <> </b><br>
+            <div class="container">
+                <div class="project1">
+                    <img src="landing_page_project.png" class="project-img">
+                    <p class="project-title">
+                        <a href="C:\Users\VAISHNAVI\Documents\HTML Tutorial\Landingpage1.html" class="links" target="_main">Basic Landing Page</a><b class="hide">*click to view project</b>
+                        <br><br>
+                        A landing page project about a book review showcases my skills in HTML and CSS. It includes a clean layout with a book cover, summary, reviews, ratings, and a call-to-action for users to explore or purchase the book.
+                    </p>
+                </div><br>
+                <div class="project2">
+                    <img src="portfolio_project.png" class="project-img">
+                    <p class="project-title">
+                        <a href="C:\Users\VAISHNAVI\Documents\HTML Tutorial\portfolio1.html" class="links" target="_main">Portfolio</a><b class="hide">*click to view project</b>
+                        <br><br>
+                        The portfolio project I built showcases my skills, projects, and experience in a visually appealing, organized layout. It serves as a professional online presence, helping potential clients or employers easily view my work and contact me for opportunities.
+                    </p>
+                </div><br>
+                <div class="project3">
+                    <img src="registration_form_project.png" class="project-img">
+                    <p class="project-title">
+                        <a href="C:\Users\VAISHNAVI\Documents\HTML Tutorial\registrationform.html" class="links" target="_main">Registration form</a><b class="hide">*click to view project</b>
+                        <br><br>
+                        The registration form project I built allows users to input their details for registration. It helps streamline the registration/sign-up process for websites or apps, ensuring data collection, validation, and user-friendly interaction for better user experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="home">
+        <div id="contactbox">
+            <b id="hello"> <> Contact <> </b><br>
+            <!--LinkedIn -->
+            <br><br><br>
+            <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png" alt="linkedin icon" id="icon1">
+            <a href="https://linkedin.com/in/vaishnavi-borse-13v06n13b" target="_main" class="contact">Vaishanvi Borse</a>
+            <br><br><br>
+            <!--Whatsapp -->
+            <img src="https://th.bing.com/th/id/R.3db05f40f9bfbfa4818e5f841359ac18?rik=i9uCGc2yoCWfNA&riu=http%3a%2f%2fspeedyclearance.uk%2fwp-content%2fuploads%2f2018%2f04%2fwhatsapp-icon.png&ehk=%2fGSNSk4y8vLd2qCiosXRI0WSYOth7SLdJewCXSxpcmY%3d&risl=&pid=ImgRaw&r=0" alt="whatsapp icon" id="icon2">
+            <a href="https://api.whatsapp.com/send/?phone=918433626952&text&type=phone_number&app_absent=0" target="_main" class="contact">Vaishanvi Borse</a>
+            <br><br><br>
+            <!--Gmail -->
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png" alt="gmail icon" id="icon3">
+            <a href="mailto:vaishub0122@gmail.com" target="_main" class="contact">vaishub0122@gmail.com</a>
+            <br><br><br>
+            <!--Telegram -->
+            <img src="https://logos-world.net/wp-content/uploads/2021/03/Telegram-Logo.png" alt="telegram icon" id="icon4">
+            <a href="https://t.me/@vaishu_0122" target="_main" class="contact">@vaishu_0122</a>
+            <br><br><br>
+            <!--Instagram-->
+            <img src="https://th.bing.com/th/id/R.26d9974a1feec9905a4e0d5e5ddf8db6?rik=Og1ujXM2C1AJHQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa5%2fInstagram_icon.png&ehk=1%2fZWXYn2nN%2fR80TOtcKH5SsdLkkUvMLrB%2fHUXRDHk9I%3d&risl=&pid=ImgRaw&r=0" alt="instagram icon" id="icon5">
+            <a href="https://www.instagram.com/viibewith.v/" target="_main" class="contact">viibewith.v</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Vaishnavi Naval Borse Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
